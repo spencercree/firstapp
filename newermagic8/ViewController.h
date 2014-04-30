@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *sayingLabel;
+    
+    IBOutlet UIImageView *magicBall;
+    
+    IBOutlet UIImageView *triangle;
+    
+    
+    NSArray *magicBallsayings;
+    
+    
+}
+
+@property (retain, nonatomic) IBOutlet UILabel *sayingLabel;
+
+
 
 @end
